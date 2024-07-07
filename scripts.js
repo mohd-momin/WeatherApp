@@ -1,18 +1,3 @@
-// console.log("hello jee");
-// const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
-// async function showWeather(){
-//     try{
-//         const lat=52.52;
-//         const lon=13.41;
-//         const weather=await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`);
-//         const data=await weather.json();
-//         console.log("weather data ->" , data);
-//     }
-//     catch(e){
-//         console.log("err h!");
-//     }
-    
-// }
 // - - - - - - - - - - - -Tab Handling- - - - - - - - - - - -
 const userTab = document.querySelector("[data-userWeather]");
 const searchTab = document.querySelector("[data-searchWeather]");
@@ -25,7 +10,8 @@ const searchForm = document.querySelector("[data-searchForm ]");
 const searchInp = document.querySelector("[data-searchInp]");
 const apiErrorContainer = document.querySelector(".api-error-container");
 let currentTab = userTab;
-const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
+//add your api key
+const API_KEY = "*****************";
 
 // Setting default tab
 currentTab.classList.add("current-tab");
