@@ -2,6 +2,16 @@
 
 This Weather App is a frontend application built using JavaScript to display current weather information for different locations.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [API Integration](#api-integration)
+- [Code Explanation](#code-explanation)
+
 ## Features
 
 - **Current Weather**: Displays current temperature, weather conditions, humidity, wind speed, etc.
@@ -32,7 +42,7 @@ Alternatively, you can use a live server extension in your code editor to run th
 
 ## Screenshots
 
-![Weather App Screenshot](https://github.com/mohd-momin/WeatherApp/blob/main/assets/weatherapppic.png)
+![Weather App Screenshot](https://github.com/mohd-momin/WeatherApp/blob/main/assets/WeatherAppScreenshot.png)
 
 ## API Integration
 
